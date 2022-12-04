@@ -13,8 +13,11 @@
 ::before,
 ::after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-
+    background-image: url(../assets/User\ Avatar\ 1.svg);
+    background-color: var(--color-primary);
 }
