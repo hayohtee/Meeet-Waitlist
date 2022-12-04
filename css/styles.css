@@ -4,10 +4,17 @@
     box-sizing: border-box;
     --font-inter: 'Inter', sans-serif;
     --font-sen: 'Sen', sans-serif;
+    --color-primary: #013243;
+    --color-secondary: #32f5c8;
+    --color-tertiary: #a9bdc6;
 }
 
 *,
 ::before,
 ::after {
     box-sizing: inherit;
+}
+
+body {
+
 }
