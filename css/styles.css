@@ -33,19 +33,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 2em;
     background-image: url(../assets/User\ Avatar\ 3.svg),
         url(../assets/User\ Avatar\ 2.svg), url(../assets/User\ Avatar\ 6.svg);
-    background-position: top 7.5em left 2em, top 7.5em right, bottom 8em right;
+    background-position: top 10% left 8%, top 10% right, bottom 10% right;
     background-repeat: no-repeat;
     background-size: 7em, 9.5em, 9.5em;
     padding: 0 1em;
     font-family: var(--font-inter);
     font-size: 1rem;
     color: var(--color-tertiary);
-}
-
-main * + * {
-    margin-top: 1.5em;
 }
 
 main h1 {
