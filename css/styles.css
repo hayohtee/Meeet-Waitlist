@@ -68,6 +68,14 @@ main a {
     font-size: 1.2em;
     border-radius: 0.5em;
     text-align: center;
+    border: 2px solid var(--color-secondary);
+}
+
+main a:hover, 
+main a:focus {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
 }
 
 footer {
@@ -87,4 +95,9 @@ footer a {
     text-decoration: none;
     gap: 1em;
     color: var(--color-tertiary);
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--color-secondary);
 }
