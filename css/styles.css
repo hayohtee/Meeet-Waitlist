@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--color-primary);
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
 }
